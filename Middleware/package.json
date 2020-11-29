@@ -1,0 +1,14 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "Middleware para Laboratorio 01 - Manejo de disponibilidad de Servers con Bash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}
