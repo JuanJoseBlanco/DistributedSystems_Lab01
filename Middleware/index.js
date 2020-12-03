@@ -15,13 +15,13 @@ setInterval(() => {
 	readLastLines.read('log.txt', 5).then((lines) => {
 		let data = lines.split('\n');
 		for (var i = 0; i < data.length; i++) {
-			if (data[i] == '3000') {
+			if (data[i] == 'Server1') {
 				if (data[i + 1] === '')
 					serverA = 'DOWN';
 				else
 					serverA = 'UP';
 				i++;
-			} else if (data[i] == '4000') {
+			} else if (data[i] == 'Server2') {
 				if (data[i + 1] === '')
 					serverB = 'DOWN';
 				else
