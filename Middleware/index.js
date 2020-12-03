@@ -279,7 +279,7 @@ app.get("/", (req, res) => {
 			$(document).ready(function () {
 	
 				$.ajax({
-					url: '192.168.1.156:5000/info',
+					url: '192.168.1.156:5000',
 					type: "GET",
 					success: function (res) {
 						if (res.serverA === 'UP') {
